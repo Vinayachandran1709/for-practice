@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>Objects</title>
   </head>
   <body>
     <script>
-      const product = {
+        /*const product = {
         name : 'shirt',
         price : 150,
         brand : 'Hubermann',
@@ -25,7 +25,11 @@
       console.log(product.rating.stars)
       product.fun();
 
-      /*product.name = 'Cotton pant'
+      console.log(JSON.stringify(product));
+      const jsonString = JSON.stringify(product);
+      console.log(JSON.parse(jsonString));
+
+    product.name = 'Cotton pant'
       console.log(product)
 
       product.discount_percent = 15
@@ -33,6 +37,26 @@
 
       delete product.discount_percent
       console.log(product)*/
+
+
+      console.log('hello'.length);
+      console.log('hello'.toUpperCase());
+
+      const obj1 = {
+        name: 'sam'
+      };
+
+      const obj2 = obj1;
+      obj1.name = 'tom';
+      console.log(obj1);
+      console.log(obj2);
+
+      const obj3 = {
+        message: 'tom'
+      }
+
+      console.log(obj1 === obj3);
+      console.log(obj1 === obj2);
     </script>
   </body>
 </html>
