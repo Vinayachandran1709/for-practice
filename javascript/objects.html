@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+  </head>
+  <body>
+    <script>
+      const product = {
+        name : 'shirt',
+        price : 150,
+        brand : 'Hubermann',
+        'delivery-value': 900,
+        rating: {
+            stars: 4.5,
+            reviews: 87
+        },
+        fun: function function1() {
+            console.log("this is also a function");
+        }
+      };
+      console.log(product)
+      console.log(product['name'])
+      console.log(product.brand)
+      console.log(product['delivery-value'])
+      console.log(product.rating.stars)
+      product.fun();
+
+      /*product.name = 'Cotton pant'
+      console.log(product)
+
+      product.discount_percent = 15
+      console.log(product)
+
+      delete product.discount_percent
+      console.log(product)*/
+    </script>
+  </body>
+</html>

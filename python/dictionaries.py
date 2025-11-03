@@ -8,7 +8,7 @@ capitals = {"USA": "Washington",
 #if capitals.get("Taiwan"):
   #print("The capital exists")
 #else:
- #   print("The capital does not exists")
+  #print("The capital does not exists")
 
 #capitals.update({"London":"England"})
 #print(capitals)
