@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM</title>
+  </head>
+  <body>
+    <button>hello</button>
+    <button class="second">Second button</button>
+    <script>
+        console.log(document.querySelector('button').innerHTML); /*.innerHTML will give use the html inside the button*/
+        document.querySelector('button').innerHTML = 'Kamalesh';
+        const secondButton = document.querySelector('.second') /*we have used a var to store it*/
+        console.log(secondButton);
+        document.querySelector('.second').innerHTML = 'Vinay';
+
+
+
+        /*
+        document.body.innerHTML = 'hello' document here is built in object provided by JS, also this property remove the entire content in webpage and inserts hello 
+        document.title = 'Good job' this property changes the tile on top of the webpage
+        console.log(document.title)
+        console.log(document.body); it shows the code inside the body
+        console.log(typeof(document.body))
+        console.log(document.body.innerHTML);  innerHTML controls all html code inside the body
+        document.body.innerHTML = '<button>Vinayachandran</button>' with innerHTML we can not just replace text but also new HTML code 
+        */
+
+    </script>
+  </body>
+</html>
